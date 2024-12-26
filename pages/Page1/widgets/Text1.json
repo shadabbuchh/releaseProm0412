@@ -1,0 +1,54 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "ex7vhbnvf9",
+  "leftColumn": 25,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "originalBottomRow": 13,
+  "originalTopRow": 9,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "shouldTruncate": false,
+  "text": "Hello {{appsmith.user.name || appsmith.user.email}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 9,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "zxiempiz50",
+  "widgetName": "Text1"
+}
